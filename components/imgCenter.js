@@ -1,6 +1,6 @@
 define(function (require) {
-  var $ = require('jquery')
   var imgLoader = require('./libs/imgLoader')
+  var $ = require('jquery')
 
   var imgCenter = function (domList, mode) {
     domList.forEach(function (item) {

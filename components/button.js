@@ -1,5 +1,6 @@
 define(function(require) {
   var Dialog = require('./dialog')
+  var $ = require('jquery')
 
   $('.aspect').on('click',function(){
     Dialog({

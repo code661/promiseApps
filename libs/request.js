@@ -1,5 +1,4 @@
 define(function (require) {
-  'use strict';
   var API = require('./libs/API')
   var $ = require('jquery')
 

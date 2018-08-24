@@ -9,9 +9,10 @@ requirejs.config({
 })
 
 define(function(require) {
-  'use strict';
+  var $ = require('jquery')
   var calender = require('calender')
   var imgCenter = require('imgCenter')
+  require('./components/button')
 
   var domList = document.querySelectorAll('.img-center')
   imgCenter(domList, 'aspectFill')
