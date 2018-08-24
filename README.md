@@ -19,3 +19,7 @@
 * `imgLoader` 用于加载图片的模块
 
 ⭐️ 实现关键：在 `imgLoader` 模块中让绑定 img 元素的 onload 事件，并返回一个 Promise 实例。在`imgCenter` 模块中运行`imgLoader` 在返回的 Promise　实例 then 方法中定义函数来处理图片。
+
+## 第三个应用场景：自定义弹窗的处理
+
+利用Promise，当我们点击确认时，状态变成resolved，点击取消时，状态变成rejected。这样也方便将弹窗生成与后续的操作处理区分开来。
